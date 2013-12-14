@@ -4,9 +4,16 @@ MiniCM
 MiniCM (http://code.google.com/p/minicm/) is a fork of the CyanogenMod project that provides support for the SEMC msm7x27 devices.
 These devices are: X8/W8, X10mini, X10minipro
 
+Now, it supports a HTC msm7x27a device.
+This device is: Pico (Explorer)
+
+This project has a variety of cherry-picks from various sources, which mainly include CyanogenMod's Gerrit instance, androidarmv6, GenetICS, and many more.
+
+Note: Building after a fresh repo sync will *NOT* work every time. It is likely that there are gremlins in upsteam patches.
+
 All patches are welcome!
 
-Please use github or email minicmrom@gmail.com for any patches you want to contibute.
+Please use github or email vineethraj49@gmail.com for any patches you want to contibute.
 
 Getting Started
 ---------------
@@ -16,73 +23,22 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the MiniCM trees, use a command like this:
 
-    repo init -u git://github.com/MiniCM/android.git -b ics
+    repo init -u git://github.com/minicm4pico/android.git -b ics
 
 Then to sync up:
 
     repo sync
 
-Building MiniCM (Quick start)
-------------------
+If you have a slow internet connection, use:
+
+    repo sync -j1
+
+This tells the repo to fetch projects one by one.
+
+Building MiniCM for pico (Quick start)
+-----------------------------
 
     . build/envsetup.sh
 
-    lunch cm_<device>-eng
-
-    brunch cm_<device>-eng
-
-Where device is one of:
-shakira (X8/W8)
-robyn (X10mini)
-mimmi (X10minipro)
-
-CyanogenMod
-===========
-
-Submitting Patches
-------------------
-Patches are always welcome!  Please submit your patches via CyanogenMod Gerrit!
-You can do this by using these commands:
-
-    (From root android directory)
-    . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    cmgerrit <for(new)/changes(patch set)> <branch/change-id> 
-
-    repo start ics .
-    (Make your changes and commit)
-    repo upload .
-Note: "." meaning current directory
-For more help on using this tool, use this command: repo help upload
-
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
-
-To view the status of your and others' patches, visit [CyanogenMod Code Review](http://review.cyanogenmod.org/)
-
-
-Getting Started
----------------
-
-To get started with Android/CyanogenMod, you'll need to get
-familiar with [Git and Repo](http://source.android.com/download/using-repo).
-
-To initialize your local repository using the CyanogenMod trees, use a command like this:
-
-    repo init -u git://github.com/CyanogenMod/android.git -b ics
-
-Then to sync up:
-
-    repo sync
-
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
-
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.org/index.php/Github_Organization)
-
-Buildbot
---------
-
-All supported devices are built nightly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [CyanogenMod Jenkins](http://jenkins.cyanogenmod.org/)
+    brunch pico
+    
