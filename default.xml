@@ -16,6 +16,10 @@
            sync-c="true"
            sync-j="4" />
 
+  <!-- Device specific projects -->
+  <project path="device/htc/pico" name="vineethraj49/android_device_htc_pico_ics" revision="master" />
+  <project path="vendor/htc/pico" name="minicm4pico/ics-vendor-pico"/> 
+  
   <!-- minicm4pico projects -->
   <project path="android" name="minicm4pico/android" />
   <project path="build" name="minicm4pico/android_build">
@@ -38,8 +42,7 @@
   <project path="packages/apps/Trebuchet" name="minicm4pico/android_packages_apps_Trebuchet" />
   <project path="packages/inputmethods/LatinIME" name="minicm4pico/android_packages_inputmethods_LatinIME" />
   <project path="vendor/cm" name="minicm4pico/android_vendor_cm" />
-  <project path="vendor/htc/pico" name="minicm4pico/ics-vendor-pico"/> 
-  <project path="vendor/prebuilt/apps" name="minicm4pico/android_packages_prebuilt_apps" />
+  <project path="vendor/prebuilt/apps" name="minicm4pico/android_packages_prebuilt_apps" />  
   <project path="system/core" name="minicm4pico/android_system_core" />
   <project path="system/vold" name="minicm4pico/android_system_vold" />
   <project path="system/vold" name="minicm4pico/android_system_vold" />
@@ -58,7 +61,6 @@
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="development" name="CyanogenMod/android_development" />
-  <project path="device/htc/pico" name="vineethraj49/android_device_htc_pico_ics" revision="master" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
   <project path="external/astl" name="CyanogenMod/android_external_astl" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
