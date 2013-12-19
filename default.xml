@@ -45,7 +45,6 @@
   <project path="vendor/prebuilt/apps" name="minicm4pico/android_packages_prebuilt_apps" />  
   <project path="system/core" name="minicm4pico/android_system_core" />
   <project path="system/vold" name="minicm4pico/android_system_vold" />
-  <project path="system/vold" name="minicm4pico/android_system_vold" />
 
   <!-- Legacy MiniCM projects -->
   <project path="external/bluetooth/bluez" name="MiniCM/android_external_bluetooth_bluez" />
