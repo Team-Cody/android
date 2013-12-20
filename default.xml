@@ -28,6 +28,7 @@
   <project path="bionic" name="minicm4pico/android_bionic" />
   <project path="dalvik" name="minicm4pico/android_dalvik" />
   <project path="frameworks/base" name="minicm4pico/android_frameworks_base" />
+  <project path="hardware/libhardware" name="minicm4pico/android_hardware_libhardware" />
   <project path="packages/apps/Browser" name="minicm4pico/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="minicm4pico/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="minicm4pico/android_packages_apps_Calendar" />
@@ -169,7 +170,6 @@
   <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />

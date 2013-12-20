@@ -1,11 +1,5 @@
-MiniCM
+minicm4pico
 ===========
-
-MiniCM (http://code.google.com/p/minicm/) is a fork of the CyanogenMod project that provides support for the SEMC msm7x27 devices.
-These devices are: X8/W8, X10mini, X10minipro
-
-Now, it supports a HTC msm7x27a device.
-This device is: Pico (Explorer)
 
 This project has a variety of cherry-picks from various sources, which mainly include CyanogenMod's Gerrit instance, androidarmv6, GenetICS, and many more.
 
@@ -18,7 +12,7 @@ Please use github or email vineethraj49@gmail.com for any patches you want to co
 Getting Started
 ---------------
 
-To get started with MiniCM, you'll need to get
+To get started with MiniCM4pico, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the MiniCM trees, use a command like this:
