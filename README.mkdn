@@ -1,4 +1,4 @@
-minicm4pico
+CodyROM
 ===========
 
 This project has a variety of cherry-picks from various sources, which mainly include CyanogenMod's Gerrit instance, androidarmv6, GenetICS, and many more.
@@ -7,17 +7,17 @@ Note: Building after a fresh repo sync will *NOT* work every time. It is likely 
 
 All patches are welcome!
 
-Please use github or email vineethraj49@gmail.com for any patches you want to contibute.
+Please use github or email codyromdevs@gmail.com for any patches you want to contibute.
 
 Getting Started
 ---------------
 
-To get started with MiniCM4pico, you'll need to get
+To get started with CodyROM, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the MiniCM trees, use a command like this:
 
-    repo init -u git://github.com/minicm4pico/android.git -b ics
+    repo init -u git://github.com/CodyROM/android.git -b ics
 
 Then to sync up:
 
@@ -29,7 +29,7 @@ If you have a slow internet connection, use:
 
 This tells the repo to fetch projects one by one.
 
-Building MiniCM for pico (Quick start)
+Building CodyROM for pico (Quick start)
 -----------------------------
 
     . build/envsetup.sh

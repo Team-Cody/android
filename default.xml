@@ -18,42 +18,33 @@
 
   <!-- Device specific projects -->
   <project path="device/htc/pico" name="vineethraj49/android_device_htc_pico_ics" revision="master" />
-  <project path="vendor/htc/pico" name="minicm4pico/ics-vendor-pico"/> 
+  <project path="vendor/htc/pico" name="CodyROM/android_vendor_htc_pico"/> 
   
-  <!-- minicm4pico projects -->
-  <project path="android" name="minicm4pico/android" />
-  <project path="build" name="minicm4pico/android_build">
+  <!-- CodyROM projects -->
+  <project path="android" name="CodyROM/android" />
+  <project path="build" name="CodyROM/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="minicm4pico/android_bionic" />
-  <project path="dalvik" name="minicm4pico/android_dalvik" />
-  <project path="frameworks/base" name="minicm4pico/android_frameworks_base" />
-  <project path="hardware/libhardware" name="minicm4pico/android_hardware_libhardware" />
-  <project path="packages/apps/Browser" name="minicm4pico/android_packages_apps_Browser" />
-  <project path="packages/apps/Calendar" name="minicm4pico/android_packages_apps_Calendar" />
-  <project path="packages/apps/Camera" name="minicm4pico/android_packages_apps_Camera" />
-  <project path="packages/apps/CMWallpapers" name="minicm4pico/android_packages_apps_CMWallpapers" />
-  <project path="packages/apps/Email" name="minicm4pico/android_packages_apps_Email" />
-  <project path="packages/apps/Exchange" name="minicm4pico/android_packages_apps_Exchange" />
-  <project path="packages/apps/Mms" name="minicm4pico/android_packages_apps_Mms" />
-  <project path="packages/apps/Phone" name="minicm4pico/android_packages_apps_Phone" />
-  <project path="packages/apps/Settings" name="minicm4pico/android_packages_apps_Settings" />
-  <project path="packages/apps/Superuser" name="minicm4pico/android_packages_apps_Superuser" />
-  <project path="packages/apps/Trebuchet" name="minicm4pico/android_packages_apps_Trebuchet" />
-  <project path="packages/inputmethods/LatinIME" name="minicm4pico/android_packages_inputmethods_LatinIME" />
-  <project path="vendor/cm" name="minicm4pico/android_vendor_cm" />
-  <project path="vendor/prebuilt/apps" name="minicm4pico/android_packages_prebuilt_apps" />  
-  <project path="system/core" name="minicm4pico/android_system_core" />
-  <project path="system/vold" name="minicm4pico/android_system_vold" />
-
-  <!-- Legacy MiniCM projects -->
-  <project path="external/bluetooth/bluez" name="MiniCM/android_external_bluetooth_bluez" />
-  <project path="external/hostapd" name="MiniCM/android_external_hostapd" />
-  <project path="hardware/libhardware_legacy" name="MiniCM/android_hardware_libhardware_legacy" />
-  <project path="hardware/qcom/display" name="MiniCM/android_hardware_qcom_display" />
-  <project path="vendor/qcom/opensource/omx/mm-video" name="MiniCM/android_vendor_qcom_opensource_omx_mm-video" />
-  <project path="system/bluetooth" name="MiniCM/android_system_bluetooth" />
-  <project path="system/netd" name="MiniCM/android_system_netd" />
+  <project path="bionic" name="CodyROM/android_bionic" />
+  <project path="dalvik" name="CodyROM/android_dalvik" />
+  <project path="frameworks/base" name="CodyROM/android_frameworks_base" />
+  <project path="hardware/libhardware" name="CodyROM/android_hardware_libhardware" />
+  <project path="packages/apps/Browser" name="CodyROM/android_packages_apps_Browser" />
+  <project path="packages/apps/Calendar" name="CodyROM/android_packages_apps_Calendar" />
+  <project path="packages/apps/Camera" name="CodyROM/android_packages_apps_Camera" />
+  <project path="packages/apps/CMWallpapers" name="CodyROM/android_packages_apps_CMWallpapers" />
+  <project path="packages/apps/Email" name="CodyROM/android_packages_apps_Email" />
+  <project path="packages/apps/Exchange" name="CodyROM/android_packages_apps_Exchange" />
+  <project path="packages/apps/Mms" name="CodyROM/android_packages_apps_Mms" />
+  <project path="packages/apps/Phone" name="CodyROM/android_packages_apps_Phone" />
+  <project path="packages/apps/Settings" name="CodyROM/android_packages_apps_Settings" />
+  <project path="packages/apps/Superuser" name="CodyROM/android_packages_apps_Superuser" />
+  <project path="packages/apps/Trebuchet" name="CodyROM/android_packages_apps_Trebuchet" />
+  <project path="packages/inputmethods/LatinIME" name="CodyROM/android_packages_inputmethods_LatinIME" />
+  <project path="vendor/cm" name="CodyROM/android_vendor_cm" />
+  <project path="vendor/prebuilt/apps" name="CodyROM/android_packages_prebuilt_apps" />  
+  <project path="system/core" name="CodyROM/android_system_core" />
+  <project path="system/vold" name="CodyROM/android_system_vold" />
 
   <!-- Common CyanogenMod projects -->
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
@@ -67,6 +58,7 @@
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
   <project path="external/bluetooth/glib" name="CyanogenMod/android_external_bluetooth_glib" />
   <project path="external/bluetooth/hcidump" name="CyanogenMod/android_external_bluetooth_hcidump" />
+  <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" />
   <project path="external/bootmenu" name="CyanogenMod/android_external_bootmenu" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
@@ -168,7 +160,9 @@
   <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />  
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
@@ -211,10 +205,13 @@
   <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="CyanogenMod/android_vendor_qcom_opensource_kernel-tests_mm-audio" />
   <project path="vendor/qcom/opensource/omx/mm-audio" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-audio" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-core" />
+  <project path="vendor/qcom/opensource/omx/mm-video" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-video" />
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
+  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/su" name="CyanogenMod/android_system_su" />
 
   <!-- Tmobile themes -->
