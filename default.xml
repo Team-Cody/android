@@ -29,7 +29,7 @@
   <project path="dalvik" name="CodyROM/android_dalvik" />
   <project path="frameworks/base" name="CodyROM/android_frameworks_base" />
   <project path="hardware/libhardware" name="CodyROM/android_hardware_libhardware" />
-  <project path="packages/apps/Apollo" name="CodyROM/android_packages_apps_Calculator" revision="ics-plus"/>
+  <project path="packages/apps/Apollo" name="CodyROM/android_packages_apps_Apollo" revision="ics-plus"/>
   <project path="packages/apps/Calculator" name="CodyROM/android_packages_apps_Calculator" />
   <project path="packages/apps/Browser" name="CodyROM/android_packages_apps_Browser" />
   <project path="packages/apps/Calendar" name="CodyROM/android_packages_apps_Calendar" />
