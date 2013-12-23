@@ -29,16 +29,18 @@
   <project path="dalvik" name="CodyROM/android_dalvik" />
   <project path="frameworks/base" name="CodyROM/android_frameworks_base" />
   <project path="hardware/libhardware" name="CodyROM/android_hardware_libhardware" />
+  <project path="packages/apps/Apollo" name="CodyROM/android_packages_apps_Calculator" revision="ics-plus"/>
+  <project path="packages/apps/Calculator" name="CodyROM/android_packages_apps_Calculator" />
   <project path="packages/apps/Browser" name="CodyROM/android_packages_apps_Browser" />
   <project path="packages/apps/Calendar" name="CodyROM/android_packages_apps_Calendar" />
   <project path="packages/apps/Camera" name="CodyROM/android_packages_apps_Camera" />
   <project path="packages/apps/CMWallpapers" name="CodyROM/android_packages_apps_CMWallpapers" />
+  <project path="packages/apps/DeskClock" name="CodyROM/android_packages_apps_DeskClock" />
   <project path="packages/apps/Email" name="CodyROM/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CodyROM/android_packages_apps_Exchange" />
   <project path="packages/apps/Mms" name="CodyROM/android_packages_apps_Mms" />
   <project path="packages/apps/Phone" name="CodyROM/android_packages_apps_Phone" />
   <project path="packages/apps/Settings" name="CodyROM/android_packages_apps_Settings" />
-  <project path="packages/apps/Superuser" name="CodyROM/android_packages_apps_Superuser" />
   <project path="packages/apps/Trebuchet" name="CodyROM/android_packages_apps_Trebuchet" />
   <project path="packages/inputmethods/LatinIME" name="CodyROM/android_packages_inputmethods_LatinIME" />
   <project path="vendor/cm" name="CodyROM/android_vendor_cm" />
@@ -184,6 +186,7 @@
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/Usb" name="CyanogenMod/android_packages_apps_Usb" />
