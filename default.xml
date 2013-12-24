@@ -44,7 +44,6 @@
   <project path="packages/apps/Trebuchet" name="CodyROM/android_packages_apps_Trebuchet" />
   <project path="packages/inputmethods/LatinIME" name="CodyROM/android_packages_inputmethods_LatinIME" />
   <project path="vendor/cm" name="CodyROM/android_vendor_cm" />
-  <project path="vendor/prebuilt/apps" name="CodyROM/android_packages_prebuilt_apps" />  
   <project path="system/core" name="CodyROM/android_system_core" />
   <project path="system/vold" name="CodyROM/android_system_vold" />
 
