@@ -17,7 +17,7 @@
            sync-j="4" />
 
   <!-- Device specific projects -->
-  <project path="device/htc/pico" name="vineethraj49/android_device_htc_pico_ics" revision="master" />
+  <project path="device/htc/pico" name="vineethraj49/android_device_htc_pico_ics" revision="cody" />
   <project path="vendor/htc/pico" name="CodyROM/android_vendor_htc_pico"/> 
   
   <!-- CodyROM projects -->
