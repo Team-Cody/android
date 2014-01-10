@@ -18,34 +18,34 @@
 
   <!-- Device specific projects -->
   <project path="device/htc/pico" name="vineethraj49/android_device_htc_pico_ics" revision="cody" />
-  <project path="vendor/htc/pico" name="CodyROM/android_vendor_htc_pico"/> 
+  <project path="vendor/htc/pico" name="Team-Cody/android_vendor_htc_pico"/>
   
-  <!-- CodyROM projects -->
-  <project path="android" name="CodyROM/android" />
-  <project path="build" name="CodyROM/android_build">
+  <!-- Team-Cody projects -->
+  <project path="android" name="Team-Cody/android" />
+  <project path="build" name="Team-Cody/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="CodyROM/android_bionic" />
-  <project path="dalvik" name="CodyROM/android_dalvik" />
-  <project path="frameworks/base" name="CodyROM/android_frameworks_base" />
-  <project path="hardware/libhardware" name="CodyROM/android_hardware_libhardware" />
-  <project path="packages/apps/Apollo" name="CodyROM/android_packages_apps_Apollo" revision="ics-plus"/>
-  <project path="packages/apps/Calculator" name="CodyROM/android_packages_apps_Calculator" />
-  <project path="packages/apps/Browser" name="CodyROM/android_packages_apps_Browser" />
-  <project path="packages/apps/Calendar" name="CodyROM/android_packages_apps_Calendar" />
-  <project path="packages/apps/Camera" name="CodyROM/android_packages_apps_Camera" />
-  <project path="packages/apps/CMWallpapers" name="CodyROM/android_packages_apps_CMWallpapers" />
-  <project path="packages/apps/DeskClock" name="CodyROM/android_packages_apps_DeskClock" />
-  <project path="packages/apps/Email" name="CodyROM/android_packages_apps_Email" />
-  <project path="packages/apps/Exchange" name="CodyROM/android_packages_apps_Exchange" />
-  <project path="packages/apps/Mms" name="CodyROM/android_packages_apps_Mms" />
-  <project path="packages/apps/Phone" name="CodyROM/android_packages_apps_Phone" />
-  <project path="packages/apps/Settings" name="CodyROM/android_packages_apps_Settings" />
-  <project path="packages/apps/Trebuchet" name="CodyROM/android_packages_apps_Trebuchet" />
-  <project path="packages/inputmethods/LatinIME" name="CodyROM/android_packages_inputmethods_LatinIME" />
-  <project path="vendor/cm" name="CodyROM/android_vendor_cm" />
-  <project path="system/core" name="CodyROM/android_system_core" />
-  <project path="system/vold" name="CodyROM/android_system_vold" />
+  <project path="bionic" name="Team-Cody/android_bionic" />
+  <project path="dalvik" name="Team-Cody/android_dalvik" />
+  <project path="frameworks/base" name="Team-Cody/android_frameworks_base" />
+  <project path="hardware/libhardware" name="Team-Cody/android_hardware_libhardware" />
+  <project path="packages/apps/Apollo" name="Team-Cody/android_packages_apps_Apollo" revision="ics-plus"/>
+  <project path="packages/apps/Calculator" name="Team-Cody/android_packages_apps_Calculator" />
+  <project path="packages/apps/Browser" name="Team-Cody/android_packages_apps_Browser" />
+  <project path="packages/apps/Calendar" name="Team-Cody/android_packages_apps_Calendar" />
+  <project path="packages/apps/Camera" name="Team-Cody/android_packages_apps_Camera" />
+  <project path="packages/apps/CMWallpapers" name="Team-Cody/android_packages_apps_CMWallpapers" />
+  <project path="packages/apps/DeskClock" name="Team-Cody/android_packages_apps_DeskClock" />
+  <project path="packages/apps/Email" name="Team-Cody/android_packages_apps_Email" />
+  <project path="packages/apps/Exchange" name="Team-Cody/android_packages_apps_Exchange" />
+  <project path="packages/apps/Mms" name="Team-Cody/android_packages_apps_Mms" />
+  <project path="packages/apps/Phone" name="Team-Cody/android_packages_apps_Phone" />
+  <project path="packages/apps/Settings" name="Team-Cody/android_packages_apps_Settings" />
+  <project path="packages/apps/Trebuchet" name="Team-Cody/android_packages_apps_Trebuchet" />
+  <project path="packages/inputmethods/LatinIME" name="Team-Cody/android_packages_inputmethods_LatinIME" />
+  <project path="vendor/cm" name="Team-Cody/android_vendor_cm" />
+  <project path="system/core" name="Team-Cody/android_system_core" />
+  <project path="system/vold" name="Team-Cody/android_system_vold" />
 
   <!-- Common CyanogenMod projects -->
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
