@@ -18,7 +18,7 @@
 
   <!-- Device specific projects -->
   <project path="device/htc/pico" name="thewisenerd/android_device_htc_pico_ics" revision="cody" />
-  <project path="vendor/htc/pico" name="Team-Cody/android_vendor_htc_pico"/>
+  <!--<project path="vendor/htc/pico" name="Team-Cody/android_vendor_htc_pico"/>-->
   
   <!-- Team-Cody projects -->
   <project path="android" name="Team-Cody/android" />
