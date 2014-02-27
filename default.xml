@@ -30,12 +30,10 @@
   <project path="frameworks/base" name="Team-Cody/android_frameworks_base" />
   <project path="hardware/libhardware" name="Team-Cody/android_hardware_libhardware" />
   <project path="packages/apps/Apollo" name="Team-Cody/android_packages_apps_Apollo" revision="ics-plus"/>
-  <project path="packages/apps/Calculator" name="Team-Cody/android_packages_apps_Calculator" />
   <project path="packages/apps/Browser" name="Team-Cody/android_packages_apps_Browser" />
   <project path="packages/apps/Calendar" name="Team-Cody/android_packages_apps_Calendar" />
   <project path="packages/apps/Camera" name="Team-Cody/android_packages_apps_Camera" />
   <project path="packages/apps/CMWallpapers" name="Team-Cody/android_packages_apps_CMWallpapers" />
-  <project path="packages/apps/DeskClock" name="Team-Cody/android_packages_apps_DeskClock" />
   <project path="packages/apps/Email" name="Team-Cody/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="Team-Cody/android_packages_apps_Exchange" />
   <project path="packages/apps/Mms" name="Team-Cody/android_packages_apps_Mms" />
