@@ -17,7 +17,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the MiniCM trees, use a command like this:
 
-    repo init -u git://github.com/CodyROM/android.git -b ics
+    repo init -u git://github.com/Team-Cody/android.git -b cody40
 
 Then to sync up:
 
