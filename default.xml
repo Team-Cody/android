@@ -17,35 +17,29 @@
            sync-j="4" />
 
   <!-- Device specific projects -->
-  <project path="device/htc/pico" name="thewisenerd/android_device_htc_pico_ics" revision="cody" />
+  <project path="device/htc/pico" name="thewisenerd/android_device_htc_pico" revision="android-4.0" />
   <project path="vendor/htc/pico" name="thewisenerd/android_vendor_htc_pico" revision="android-4.0" />
   
   <!-- Team-Cody projects -->
-  <project path="android" name="Team-Cody/android" />
-  <project path="build" name="Team-Cody/android_build">
+  <project path="android" name="Team-Cody/android" revision="cody40" />
+  <project path="build" name="Team-Cody/android_build" revision="cody40" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="Team-Cody/android_bionic-cody" />
-  <project path="dalvik" name="Team-Cody/android_dalvik-cody" />
-  <project path="frameworks/base" name="Team-Cody/android_frameworks_base-cody" />
-  <project path="hardware/libhardware" name="Team-Cody/android_hardware_libhardware-cody" />
-  <project path="hardware/qcom/display" name="Team-Cody/android_hardware_qcom_display" />
-  <project path="packages/apps/Apollo" name="Team-Cody/android_packages_apps_Apollo-cody" revision="ics"/>
-  <project path="packages/apps/Browser" name="Team-Cody/android_packages_apps_Browser-cody" />
-  <project path="packages/apps/Calendar" name="Team-Cody/android_packages_apps_Calendar-cody" />
-  <project path="packages/apps/Camera" name="Team-Cody/android_packages_apps_Camera-cody" />
-  <project path="packages/apps/CMWallpapers" name="Team-Cody/android_packages_apps_CMWallpapers-cody" />
-  <project path="packages/apps/DeskClock" name="Team-Cody/android_packages_apps_DeskClock-cody" />
-  <project path="packages/apps/Email" name="Team-Cody/android_packages_apps_Email-cody" />
-  <project path="packages/apps/Exchange" name="Team-Cody/android_packages_apps_Exchange-cody" />
-  <project path="packages/apps/Mms" name="Team-Cody/android_packages_apps_Mms-cody" />
-  <project path="packages/apps/Phone" name="Team-Cody/android_packages_apps_Phone-cody" />
-  <project path="packages/apps/Settings" name="Team-Cody/android_packages_apps_Settings-cody" />
-  <project path="packages/apps/Trebuchet" name="Team-Cody/android_packages_apps_Trebuchet-cody" />
-  <project path="packages/inputmethods/LatinIME" name="Team-Cody/android_packages_inputmethods_LatinIME-cody" />
-  <project path="vendor/cm" name="Team-Cody/android_vendor_cm-cody" />
-  <project path="system/core" name="Team-Cody/android_system_core-cody" />
-  <project path="system/vold" name="Team-Cody/android_system_vold-cody" />
+  <project path="bionic" name="Team-Cody/android_bionic" revision="cody40" />
+  <project path="dalvik" name="Team-Cody/android_dalvik" revision="cody40" />
+  <project path="frameworks/base" name="Team-Cody/android_frameworks_base" revision="cody40" />
+  <project path="hardware/libhardware" name="Team-Cody/android_hardware_libhardware" revision="cody40" />
+  <project path="packages/apps/Browser" name="Team-Cody/android_packages_apps_Browser" revision="cody40" />
+  <project path="packages/apps/Calendar" name="Team-Cody/android_packages_apps_Calendar" revision="cody40" />
+  <project path="packages/apps/Camera" name="Team-Cody/android_packages_apps_Camera" revision="cody40" />
+  <project path="packages/apps/DeskClock" name="Team-Cody/android_packages_apps_DeskClock" revision="cody40" />
+  <project path="packages/apps/Mms" name="Team-Cody/android_packages_apps_Mms" revision="cody40" />
+  <project path="packages/apps/Phone" name="Team-Cody/android_packages_apps_Phone" revision="cody40" />
+  <project path="packages/apps/Settings" name="Team-Cody/android_packages_apps_Settings" revision="cody40" />
+  <project path="packages/apps/Trebuchet" name="Team-Cody/android_packages_apps_Trebuchet" revision="cody40" />
+  <project path="vendor/cm" name="Team-Cody/android_vendor_cm" revision="cody40" />
+  <project path="system/core" name="Team-Cody/android_system_core" revision="cody40" />
+  <project path="system/vold" name="Team-Cody/android_system_vold" revision="cody40" />
 
   <!-- Common CyanogenMod projects -->
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
@@ -161,6 +155,7 @@
   <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />  
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
